@@ -1,0 +1,15 @@
+{
+  "name": "midiconvert",
+  "version": "1.0.0",
+  "description": "Midi conversion utillity",
+  "main": "midiconvert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^0.1.1",
+    "node-csv": "^0.1.2"
+  }
+}
