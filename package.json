@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^0.1.1",
+    "midifile": "^2.0.0",
     "node-csv": "^0.1.2"
   }
 }

@@ -8,8 +8,10 @@ var lines = input.split('\n');
 lines.splice(2, 1);
 input = lines.join('\n');
  
-
-var tempo = process.argv[3];  //tempo hardcoded now, need to extract from the .mid
+var tempo = 120;  //tempo hardcoded now, need to extract from the .mid
+if (process.argv[3]) {
+  tempo = process.argv[3];  // get tempo from command line
+}
 var time_multiplier = ((1000 * 60)/(tempo*96));  // 96 ticks per beat hardcoded, should extract from midi.  1000 ms/s  60 s/min tempo in beats/min, 96 ticks per beat
 var attack = 0;
 var decay = 0;
@@ -176,3 +178,4 @@ parse(input, { comment: '#' }, function(err, lines) {
 		};
   });
 });
+
