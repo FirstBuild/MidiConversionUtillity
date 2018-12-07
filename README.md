@@ -15,6 +15,7 @@ node new_csv.js inputFileName > outputFileName
 ```
 `new_csv.js` will not create the output file, so you need to use redirection to save it to the file name of your choice.
 
-###Notes:
+### Notes:
 - Info on the [MIDI file format](https://www.csie.ntu.edu.tw/~r92092/ref/midi/)
+- [MIDI note to frequency table](http://subsynth.sourceforge.net/midinote2freq.html)
 
